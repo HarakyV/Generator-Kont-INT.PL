@@ -1,0 +1,52 @@
+
+INT.PL - Selenium Generator Kont
+================================
+
+Autor: https://github.com/HarakyV/Generator-Kont-INT.PL
+
+OPIS PROGRAMU
+--------------
+Ten program automatycznie:
+- tworzy nowe konta e-mail na stronie int.pl
+- loguje się na istniejące konta
+- opcjonalnie zapisuje dane kont (login i hasło) do pliku accounts.txt
+- pozwala ustawić parametry w pliku config.txt lub przez graficzny interfejs.
+
+PLIKI
+-----
+- config.txt
+  saveAccounts = tak/nie         → czy zapisywać konta
+  chromedriverpath = ścieżka     → ścieżka do chromedriver.exe
+  accountsNumber = liczba        → liczba kont do utworzenia
+  timeLogged = liczba sekund     → czas zalogowania
+  pswLen = liczba                → długość hasła
+  loginLen = liczba              → długość loginu
+
+- accounts.txt
+  Jeśli saveAccounts=tak, tu będą loginy i hasła.
+
+OPCJE W PROGRAMIE
+-----------------
+- „Konfiguruj Wartości” — ustaw parametry i zapisz
+- „Wystartuj program tworzący” — tworzy konta
+- „Uruchom program logujący się” — loguje na konto
+- „Przeczytaj o programie” — otwiera ten plik info.txt
+- Checkbox „Pokazać przeglądarkę?” — włącza/wyłącza tryb headless
+
+JAK UŻYWAĆ?
+-----------
+1) Skonfiguruj wartości i zapisz config
+2) Z menu głównego uruchom tworzenie kont
+3) Aby się zalogować na konto, kliknij logowanie
+
+UWAGI
+-----
+- Nie zamykaj programu w trakcie działania
+- Upewnij się, że masz właściwy chromedriver
+- Domyślne wartości można podejrzeć w konfiguracji
+
+KONTAKT
+-------
+Masz pytania? Pisz do autora.
+Discord: harakyv_
+E-mail: harakyx@gmail.com

@@ -1,0 +1,6 @@
+saveAccounts = tak
+chromedriverpath = chromedriver.exe
+accountsNumber = 3
+timeLogged = 5
+pswLen = 14
+loginLen = 8
