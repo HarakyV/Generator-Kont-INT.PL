@@ -60,6 +60,8 @@
 
 ---
 
+KONTAKT: harakyx@gmail.com
+
 ## 🚀 Jak uruchomić?
 
 ```bash
@@ -69,4 +71,4 @@ pip install selenium customtkinter pillow CTkMessagebox
 # Uruchom program
 python main.py
 
-KONTAKT: harakyx@gmail.com
+
