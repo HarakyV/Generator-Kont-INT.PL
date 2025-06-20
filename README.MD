@@ -68,3 +68,5 @@ pip install selenium customtkinter pillow CTkMessagebox
 
 # Uruchom program
 python main.py
+
+KONTAKT: harakyx@gmail.com
