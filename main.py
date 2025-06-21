@@ -240,6 +240,8 @@ def logIn():
 
     browserRun = webdriver.Chrome(service=service, options=browserOption)
     browserRun.get("https://int.pl/#/login-clear")
+    #Dodano Delay dla załadowania
+    time.sleep(2.5)
     #Wpisywanie Loginu
     wpiszLoginSinco = browserRun.find_element(By.ID , "emailId")
     wpiszLoginSinco.click()
